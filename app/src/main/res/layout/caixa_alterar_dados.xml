@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Editar Dados"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/txtEditarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entre com o nome do Jogador" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:text="Selecione o totem" />
+
+    <Spinner
+        android:id="@+id/spnTotens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/totens" />
+
+    <EditText
+        android:id="@+id/txtEditarDinheiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Insira a quantidade de dinheiro"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAlterarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar" />
+
+</LinearLayout>

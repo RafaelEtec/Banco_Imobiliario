@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Banco Imobiliario</string>
+
+    <array name="totens">
+        <item>Chapéu</item>
+        <item>Sapato</item>
+        <item>Carro</item>
+        <item>Dedal</item>
+        <item>Carrin de mão</item>
+        <item>Navio</item>
+        <item>Zebra</item>
+        <item>Ferro de passar</item>
+    </array>
+
+</resources>
